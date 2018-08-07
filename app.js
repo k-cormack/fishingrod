@@ -29,8 +29,16 @@ var fishingCart = [{
   
   
   //Calculate the total cost of the cart provided to the checkout function
+let total = 0
+
   function checkout(cart){ 
-    
+      for (let i = 0; i < fishingCart.length; i++) {
+          const product = fishingCart[i];
+          total += item.price * item.quantity
+
+          
+      }
+    return total
   }
   
   
